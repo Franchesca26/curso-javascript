@@ -1,12 +1,12 @@
 
 
-let nombre = 'julio saul';
+let nombre = 'pablo baez';
 console.log(nombre);
 
-nombre = 'julio cabeza de sandia';
+nombre = 'julia vende sandia';
 console.log(nombre);
 
-nombre = "tio july"
+nombre = "tia july"
 nombre = `july`
 
 console.log(typeof nombre);

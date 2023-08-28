@@ -7,8 +7,8 @@
 
 let a = 10,
     b = 20,
-    c = 'julio mama teta ', 
-    d = 'y mama culo', 
+    c = 'pablo loco ', 
+    d = 'genesis loca', 
     x = a + b;
 
 const Saludo= c + d; 
