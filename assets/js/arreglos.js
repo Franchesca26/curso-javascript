@@ -17,3 +17,11 @@ let arregloCosas = [
 ]; 
 
 
+console.log( videoJuegos[0] );
+
+let arreglosCosas = [
+    true, 
+    123,
+    'franchesca',
+    1+2,
+]
