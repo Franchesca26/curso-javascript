@@ -25,5 +25,5 @@ console.log(juegos)
 let juegosBorrados = juegos.splice(pos, 2);
 console.log({juegosBorrados, juegos});
 
-let metroidIndex = juegos.indexOf('Metroid'); //CaseSensitive
-console.log(metroidIndex)
+let metroidIndex = juegos.indexOf('Chrono'); //CaseSensitive
+console.log(metroidIndex);
