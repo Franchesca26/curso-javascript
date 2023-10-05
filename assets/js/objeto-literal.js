@@ -3,7 +3,7 @@ let personaje = {
     nombre: 'Maria Rodriguez',
     codeName: 'SuperMan',
     vivo: false,
-    edad: 26,
+    edad: 18,
     coords: {
         lat: 34.034,
         ing: -118.70
@@ -33,3 +33,10 @@ if(personaje.vivo == true){
     console.log('el personaje ', personaje.nombre, 'esta muerto');
 }
 
+// si es mayor de edad si o no
+if(personaje.edad >18){
+    console.log('es mayor de edad');
+
+}else{
+    console.log('es menor de edad');
+}
