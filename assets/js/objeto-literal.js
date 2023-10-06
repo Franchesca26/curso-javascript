@@ -13,7 +13,7 @@ let personaje = {
         zip: '10880, 90265',
         ubicacion: 'Malibu, California'
     },
-    'ultima pelicula': 'Infinity War'
+    'ultima-pelicula': 'Infinity War'
 }; 
 
 console.log('personaje', personaje);
@@ -31,7 +31,7 @@ console.log('lat', personaje.coords.lat);
 const x = 'vivo';
 console.log('vivo', personaje [x] );
 
-console.log('ultima pelicula', personaje['ultima-pelicula'] );
+console.log('Ultima pelicula', personaje['ultima-pelicula'] );
 
 
 // si el personaje esta vivo que imprima si esta vivo o no
