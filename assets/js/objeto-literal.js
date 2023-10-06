@@ -12,16 +12,27 @@ let personaje = {
     direccion: {
         zip: '10880, 90265',
         ubicacion: 'Malibu, California'
-    }
-
-};
+    },
+    'ultima pelicula': 'Infinity War'
+}; 
 
 console.log('personaje', personaje);
 console.log('Nombre', personaje.nombre );
+console.log('codeName', personaje['codeName'] );
+
 console.log('trajes', personaje.trajes);
 console.log('trajes: ', personaje.trajes[1]);
+console.log('trajes', personaje.trajes.length);
+
+console.log('ultimo traje', personaje.trajes[ personaje.trajes.length - 1 ] );
 console.log('ubicacion', personaje.direccion.ubicacion);
 console.log('lat', personaje.coords.lat);
+
+const x = 'vivo';
+console.log('vivo', personaje [x] );
+
+console.log('ultima pelicula', personaje['ultima-pelicula'] );
+
 
 // si el personaje esta vivo que imprima si esta vivo o no
 if(personaje.vivo == true){
@@ -39,4 +50,5 @@ if(personaje.edad >18){
 
 }else{
     console.log('es menor de edad');
+
 }
