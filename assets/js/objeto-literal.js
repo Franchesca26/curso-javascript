@@ -1,5 +1,5 @@
 
-let personaje = {
+const personaje = {
     nombre: 'Maria Rodriguez',
     codeName: 'SuperMan',
     vivo: false,
@@ -50,7 +50,6 @@ if(personaje.edad >18){
 
 }else{
     console.log('es menor de edad');
-
 }
 
 let franchesca = {
@@ -63,7 +62,6 @@ franchesca.altura = 5.2;
 franchesca.apellido = 'cruz',
 console.log(franchesca);
 
-
 // Mas detalles
 
 delete personaje.edad;
@@ -74,6 +72,11 @@ personaje.trabaja = false;
 
 const entriesPares = Object.entries( personaje );
 console.log( entriesPares );
+
+// personaje = true;
+
+console.log( personaje );
+
 
 
 
