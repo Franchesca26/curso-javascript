@@ -52,3 +52,29 @@ if(personaje.edad >18){
     console.log('es menor de edad');
 
 }
+
+let franchesca = {
+    nombre: 'Luisa',
+    apellido: 'Rosario',
+    edad: 21,
+}
+
+franchesca.altura = 5.2;
+franchesca.apellido = 'cruz',
+console.log(franchesca);
+
+
+// Mas detalles
+
+delete personaje.edad;
+console.log( personaje );
+
+personaje.casado = true;
+personaje.trabaja = false;
+
+const entriesPares = Object.entries( personaje );
+console.log( entriesPares );
+
+
+
+
