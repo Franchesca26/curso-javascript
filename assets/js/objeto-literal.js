@@ -77,6 +77,21 @@ console.log( entriesPares );
 
 console.log( personaje );
 
+Object.freeze( personaje );
+
+personaje.dinero = 100000000;
+personaje.casado = false;
+personaje.direccion.ubicacion = 'Costa Rica';
+console.log( personaje );
+
+
+const propiedades = Object.getOwnPropertyNames( personaje );
+const valores     = Object.values( personaje );
+console.log({ propiedades, valores });
+
+
+
+
 
 
 
