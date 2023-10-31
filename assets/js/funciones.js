@@ -61,3 +61,14 @@ function dividir(x , y) {
 const dividir2 = (x,y) => x / y;
 
 console.log('Mi resultado es : ', dividir2(16,2));
+
+function getAleatorio() {
+    return Math.random();
+}
+
+// En una funcion de flecha, que no tenga llaves { }
+// getAleatorio2()
+
+const getAleatorio2 = () => ;
+
+console.log( getAleatorio2() );
