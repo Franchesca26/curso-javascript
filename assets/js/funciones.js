@@ -38,6 +38,7 @@ const sumar2 = (a,b) => a + b;
 
 console.log( sumar2(328, 56) );
 
+
 function resta( h, e ) {
     console.log('El resultado de la resta es ', h - e);
 }
@@ -48,11 +49,13 @@ const resta2 = (h,e) => h - e;
 
 console.log( resta2(969, 32) );
 
+
 function multiplicar(numero1, numero2) {
     console.log('La multiplicacion del numero ', numero1, 'y', numero2, 'es igual a ', numero1 * numero2);
 }
 
 multiplicar(5, 5);
+
 
 function dividir(x , y) {
     return x / y ;
@@ -62,6 +65,7 @@ const dividir2 = (x,y) => x / y;
 
 console.log('Mi resultado es : ', dividir2(16,2));
 
+
 function getAleatorio() {
     return Math.random();
 }
@@ -69,6 +73,6 @@ function getAleatorio() {
 // En una funcion de flecha, que no tenga llaves { }
 // getAleatorio2()
 
-const getAleatorio2 = () => ;
+const getAleatorio2 = () => Math.random();
 
 console.log( getAleatorio2() );
