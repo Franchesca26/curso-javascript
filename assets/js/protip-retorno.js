@@ -29,3 +29,32 @@ console.log({ casado, vivo, nombre, animal });
 const { apellido } = crearPersona( 'Franchesca', 'Rosario' );
 console.log({ apellido });
 
+
+const Maria = {
+    nombre: 'Maria Rodriguez',
+    codeName: 'SuperMan',
+    vivo: false,
+    edad: 18,
+    trajes: ['Mark I', 'Mark V', 'Hulkbuster'],
+};
+
+//const imprimePropiedades = ( personaje ) => {
+
+// console.log( 'nombre',personaje.nombre );
+// console.log( 'codeName',personaje.codeName );
+// console.log( 'vivo',personaje.vivo );
+// console.log( 'edad',personaje.edad );
+// console.log( 'trajes',personaje.trajes );
+
+//}
+
+const imprimePropiedades = ({ nombre, codeName, vivo, edad, trajes}) => {
+    console.log({nombre});
+    console.log({codeName});
+    console.log({vivo});
+    console.log({edad});
+    console.log({trajes});
+
+}
+
+imprimePropiedades( Maria );
