@@ -76,3 +76,26 @@ function getAleatorio() {
 const getAleatorio2 = () => Math.random();
 
 console.log( getAleatorio2() );
+
+
+// Ejemplos
+
+const nombreCompleto = (nombre, apellido) => nombre + apellido;
+
+// nombreCompleto('franchesca', 'rosario') es igual ('franchesca', 'rosario') => 'franchesca' + 'rosario';
+// nombreCompleto('julio', 'antigua') es igual ('julio', 'antigua') => 'julio' + 'antigua';
+
+const nombreCompleto2 = (nombre, apellido) => {
+    return{nombre, apellido}
+};
+
+const nombreCompleto3 = (nombre, apellido) => {
+    let nombreCompleto = {nombre, apellido};
+    return nombreCompleto;
+};
+
+console.log( nombreCompleto('franchesca' , 'rosario') );
+
+console.log(nombreCompleto2('franchesca' , 'rosario') );
+
+console.log(nombreCompleto3('julio' , 'antigua') );
