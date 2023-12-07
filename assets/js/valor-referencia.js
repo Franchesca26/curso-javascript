@@ -1,7 +1,8 @@
 
-let a = 10;
+let a = 30;
 let b = a;
-a = 55;
+a = 60;
+
 
 console.log({ a, b });
 
